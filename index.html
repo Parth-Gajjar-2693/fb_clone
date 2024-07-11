@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - log in or sign up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="fb_icon.png" type="image/x-icon" />
+  </head>
+  <body class="bg-gray-100">
+    <div
+      class="container mt-12 mx-auto flex flex-col items-center justify-center"
+    >
+      <div class="header">
+        <img src="fb_img.svg" alt="fb_img" class="w-64" />
+      </div>
+      <div
+        class="form-box flex flex-col w-96 bg-white p-8 rounded-lg shadow-xl shadow-gray-400 text-lg"
+      >
+        <span class="text-center text-xl mb-2">Log in to Facebook</span>
+        <input
+          class="px-4 h-12 my-2 border border-1 border-gray-200 rounded-lg outline-none shadow-inner"
+          type="text"
+          placeholder="Email address or phone number"
+        />
+        <input
+          class="px-4 h-12 my-2 border border-1 border-gray-200 rounded-lg outline-none shadow-inner"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          class="bg-blue-600 text-white py-2 my-2 rounded-lg text-xl font-bold hover:bg-blue-700"
+        >
+          Log in
+        </button>
+        <div class="link text-center">
+          <span
+            class="text-blue-600 text-sm my-2 cursor-pointer hover:underline"
+            >Forgotten account?</span
+          >
+          <span class="font-bold text-gray-400">.</span>
+          <span
+            class="text-blue-600 text-sm my-2 cursor-pointer hover:underline"
+          >
+            Sign up for Facebook</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
